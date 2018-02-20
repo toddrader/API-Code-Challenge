@@ -1,0 +1,16 @@
+<section class="angular-concepts">
+    <h2>Angular Concepts</h2>
+    <table class="table">
+        <tr>
+            <th>Concept</th><th>Definition</th><th>Useful for...</th>
+        </tr>
+        <tr ng-repeat="row in $ctrl.rows" >
+            <td>
+                {{row.concept}}
+                <img ng-src="{{row.image}}" />
+            </td>
+            <td>{{row.definition}}</td>
+            <td>{{row.use}}</td>
+        </tr>
+    </table>
+</section>

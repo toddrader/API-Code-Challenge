@@ -1,0 +1,58 @@
+[
+    {
+        "image": "images/angular.png",
+        "concept": "Angular",
+        "definition": "A JavaScript framework.",
+        "use": "Making robust JavaScript applications."
+    },{
+        "image": "images/angular-module.png",
+        "concept": "Module",
+        "definition": "Container for everything",
+        "use": ""
+    },{
+        "image": "images/angular-view.png",
+        "concept": "View",
+        "definition": " defines what users sees and interacts with",
+        "use": ""
+    },{
+        "image": "images/angular-controller.png",
+        "concept": "Controller",
+        "definition": "manages flow of information between view and model after it is used, it deconstructs",
+        "use": ""
+    },{
+        "image": "images/angular-component-all.png",
+        "concept": "Model",
+        "definition": "Manages the data within the application",
+        "use": "connects the controller and the view"
+    },{
+        "image": "images/angular-view.png",
+        "concept": "ng-repeat",
+        "definition": "directive that loops through list of variables in template",
+        "use": ""
+    },{
+        "image": "images/angular-view.png",
+        "concept": "ng-model",
+        "definition": "directive that binds input, select and textarea to controller ",
+        "use": ""
+    },{
+        "image": "images/angular-directive-component.png",
+        "concept": "Directive",
+        "definition": "applies functionality and behavior to html",
+        "use": ""
+    },{
+        "image": "images/angular-component.png",
+        "concept": "Component",
+        "definition": "creates html elements can have binding, template and controller",
+        "use": ""
+    },{
+        "image": "images/angular-service.png",
+        "concept": "Service",
+        "definition": "centralized place for application data",
+        "use": ""
+    },{
+        "image": "images/angular-component-all.png",
+        "concept": "Routing",
+        "definition": "tells browser when to display what content in a single page application",
+        "use": ""
+    }
+]

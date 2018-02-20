@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hall of Fame</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body ng-app="hallOfFame">
+
+    <main class="container">
+        <header class="nav">
+            <!-- <a class="nav-link" href="#!/angular" >Angular Concepts</a> -->
+            <a class="nav-link" href="#!/complete" >Temp F</a>
+            <a class="nav-link" href="#!/tiny" >Temp C</a>
+        </header>
+
+        <ng-view></ng-view>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular-route.min.js"></script>
+    <script src="hallOfFame.module.js"></script>
+    <script src="config.js"></script>
+    <script src="components/completeHall.component.js"></script>
+    <script src="components/tinyHall.component.js"></script>
+    <script src="components/angularConcepts.component.js"></script>
+    <script src="services/AngularConceptsService.service.js"></script>
+    <script src="services/HallOfFameService.service.js"></script>
+</body>
+</html>

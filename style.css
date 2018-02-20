@@ -1,0 +1,15 @@
+.angular-concepts th:first-child {
+    text-align: center;
+}
+
+.angular-concepts td:first-child {
+    text-align: center;
+    font-weight: bold;
+    font-size: 110%;
+}
+
+.angular-concepts img {
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
