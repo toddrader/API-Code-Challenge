@@ -1,4 +1,9 @@
-<section>
-    <h2>Current Temperature F</h2>
-    <span ng-repeat="row in $ctrl.rows">{{ row }}</span>
+<section class="app" ng-show="$ctrl.tempF">
+  <div class="headline">
+  <h6>Current</h6>
+  <h6>Temperature</h6>
+  </div>
+  <span class="temp">{{ $ctrl.tempF }}</span>
+  <span class="temp">&deg;</span> <span class="deg">f</span>
+  <a class="nav-link" href="#!/tiny" >See Celcius</a>
 </section>

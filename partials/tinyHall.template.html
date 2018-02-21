@@ -1,4 +1,9 @@
-<section>
-    <h2>Current Temperature C</h2>
-    {{ $ctrl.tempC | number: 0 }}
+<section class="app" ng-show="$ctrl.tempC">
+  <div class="headline">
+  <h6>Current</h6>
+  <h6>Temperature</h6>
+  </div>
+  <span class="temp">{{ $ctrl.tempC | number: 0 }}</span>
+  <span class="temp">&deg;</span> <span class="deg">c</span>
+  <a class="nav-link" href="#!/complete" >See Fahrenheit</a>
 </section>

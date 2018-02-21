@@ -3,11 +3,9 @@
         templateUrl: "partials/completeHall.template.html",
         controller: function(HallOfFameService, $timeout) {
             var $ctrl = this;
-
-
-            HallOfFameService.getCompleteHallOfFame().then(function(rows) {
-                $ctrl.rows = rows;
-                console.log(rows);
+              HallOfFameService.getCompleteHallOfFame().then(function(tempF) {
+                $ctrl.tempF = tempF;
+                console.log(tempF);
             });
         }
     }

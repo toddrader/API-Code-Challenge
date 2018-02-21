@@ -1,15 +1,28 @@
-.angular-concepts th:first-child {
-    text-align: center;
+.container{
+  width: 150px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  background-color: #f4df42;
+  text-align: center;
 }
 
-.angular-concepts td:first-child {
-    text-align: center;
-    font-weight: bold;
-    font-size: 110%;
+.temp {
+  font-size: 50px;
 }
 
-.angular-concepts img {
-    height: 100px;
-    display: block;
-    margin: 0 auto;
+.deg {
+    font-size: 30px;
+}
+
+.nav-link {
+  font-size: 10px;
+}
+
+h6 {
+  margin: 0;
+}
+
+.headline {
+  margin-top: 10px;
 }
