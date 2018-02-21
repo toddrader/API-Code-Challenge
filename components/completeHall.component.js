@@ -1,8 +1,10 @@
 (function() {
     var completeHall = {
         templateUrl: "partials/completeHall.template.html",
-        controller: function(HallOfFameService) {
+        controller: function(HallOfFameService, $timeout) {
             var $ctrl = this;
+
+
             HallOfFameService.getCompleteHallOfFame().then(function(rows) {
                 $ctrl.rows = rows;
                 console.log(rows);

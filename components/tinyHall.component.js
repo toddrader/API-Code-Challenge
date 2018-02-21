@@ -5,7 +5,7 @@
             var $ctrl = this;
             HallOfFameService.getTinyHallOfFame().then(function(rows) {
                 $ctrl.rows = rows;
-                console.log(rows);
+                console.log((rows -32)*.5559);
             });
         }
     }
